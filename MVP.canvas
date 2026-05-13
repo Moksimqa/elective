@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"02c7619d8b551834","x":-133,"y":-20,"width":153,"height":51,"color":"1","type":"text","text":"Пользователь"},
+		{"id":"0e8b8272a4b31af1","x":100,"y":-95,"width":129,"height":50,"type":"text","text":"Telegram"},
+		{"id":"aca14808735d0477","x":280,"y":-100,"width":154,"height":60,"type":"text","text":"Бот (aiogram)"},
+		{"id":"b23400b5cd0c6251","x":520,"y":-24,"width":250,"height":60,"type":"text","text":"Backend (FastAPI)"},
+		{"id":"0f30e7ff90aacd10","x":928,"y":-240,"width":125,"height":60,"type":"text","text":"Task Logic"},
+		{"id":"2bd67e057ae7dd3b","x":928,"y":-24,"width":125,"height":60,"type":"text","text":"AI Processing"},
+		{"id":"9bac96f032af2584","x":1144,"y":-28,"width":76,"height":64,"type":"text","text":"AI API\n"},
+		{"id":"0533a2419f70c659","x":1148,"y":-320,"width":72,"height":60,"type":"text","text":"БД"},
+		{"id":"b08e1401dee905c5","x":1320,"y":-180,"width":250,"height":60,"color":"1","type":"text","text":"Ответ пользователю"},
+		{"id":"9b86804fdcdadd41","x":928,"y":-450,"width":125,"height":70,"type":"text","text":"Reminder system"},
+		{"id":"7916d713323de783","x":1320,"y":-350,"width":161,"height":60,"type":"text","text":"Планировщик"}
+	],
+	"edges":[
+		{"id":"32f324ef6e95dd82","fromNode":"02c7619d8b551834","fromSide":"right","toNode":"0e8b8272a4b31af1","toSide":"left"},
+		{"id":"25493229668457b2","fromNode":"0e8b8272a4b31af1","fromSide":"right","toNode":"aca14808735d0477","toSide":"left"},
+		{"id":"91da2d62d58c553c","fromNode":"aca14808735d0477","fromSide":"right","toNode":"b23400b5cd0c6251","toSide":"left"},
+		{"id":"626d4124cbbf5166","fromNode":"b23400b5cd0c6251","fromSide":"right","toNode":"0f30e7ff90aacd10","toSide":"left"},
+		{"id":"f3e171d3519ad23c","fromNode":"0f30e7ff90aacd10","fromSide":"right","toNode":"0533a2419f70c659","toSide":"left"},
+		{"id":"9a218c783cdd3ed9","fromNode":"b23400b5cd0c6251","fromSide":"right","toNode":"2bd67e057ae7dd3b","toSide":"left"},
+		{"id":"49fe62cf491a5a58","fromNode":"2bd67e057ae7dd3b","fromSide":"right","toNode":"9bac96f032af2584","toSide":"left"},
+		{"id":"2eeae648b4b20247","fromNode":"9bac96f032af2584","fromSide":"bottom","toNode":"2bd67e057ae7dd3b","toSide":"bottom"},
+		{"id":"3bf7f373475c9edf","fromNode":"2bd67e057ae7dd3b","fromSide":"top","toNode":"0f30e7ff90aacd10","toSide":"bottom"},
+		{"id":"086a9c65f51c2d4d","fromNode":"0f30e7ff90aacd10","fromSide":"right","toNode":"b08e1401dee905c5","toSide":"left"},
+		{"id":"4deaeb1279ad2cdc","fromNode":"0533a2419f70c659","fromSide":"right","toNode":"7916d713323de783","toSide":"left"},
+		{"id":"b1f2d59e5c1464bf","fromNode":"b23400b5cd0c6251","fromSide":"top","toNode":"9b86804fdcdadd41","toSide":"left"},
+		{"id":"7be1848b5db72310","fromNode":"7916d713323de783","fromSide":"top","toNode":"9b86804fdcdadd41","toSide":"right"},
+		{"id":"36ef9edac507e883","fromNode":"aca14808735d0477","fromSide":"top","toNode":"02c7619d8b551834","toSide":"top"},
+		{"id":"72e35578c062a56f","fromNode":"9b86804fdcdadd41","fromSide":"top","toNode":"aca14808735d0477","toSide":"top"},
+		{"id":"e3ac78616457edf9","fromNode":"9b86804fdcdadd41","fromSide":"bottom","toNode":"0533a2419f70c659","toSide":"top"},
+		{"id":"9ce7fab689f5ac73","fromNode":"2bd67e057ae7dd3b","fromSide":"top","toNode":"b08e1401dee905c5","toSide":"bottom","color":"2"}
+	]
+}
